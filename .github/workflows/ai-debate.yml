@@ -1,0 +1,28 @@
+name: AI Debate
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  debate:
+    if: github.event.label.name == 'debate'
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Run Gemini
+        uses: google-github-actions/run-gemini-cli@v0
+        with:
+          gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
+          prompt: |
+            You are Gemini in a debate.
+            Topic: ${{ github.event.issue.title }}
+            Details: ${{ github.event.issue.body }}
+            Give your strongest factual argument and rebut likely counterarguments.
+
+      - name: Save debate marker
+        run: |
+          mkdir -p debates
+          printf '%s\n' "Debate triggered by issue #${{ github.event.issue.number }}" > debates/current.md
