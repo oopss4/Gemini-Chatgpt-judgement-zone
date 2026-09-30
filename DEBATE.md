@@ -21,8 +21,13 @@ No API automation.
 6. Run Final Synthesis / Rút kết:
    - Gemini gives its independent final synthesis.
    - ChatGPT gives its independent final synthesis.
-7. ChatGPT records a neutral Debate Synthesis when useful.
+7. Run Decision / Quyết định cuối:
+   - Use the entire debate and both final syntheses.
+   - Produce one recommended course of action.
+   - State the rationale, conditions, risks/trade-offs, next action, and what would change the decision.
+   - If the evidence is insufficient, state what must be verified before deciding.
 8. Save the final transcript under `debates/`.
+9. Mark the session COMPLETED after the final decision is recorded.
 
 ## Transcript format
 
@@ -55,7 +60,24 @@ No API automation.
 ## ChatGPT — Rút kết
 ...
 
-## Debate Synthesis
+# Final Decision / Quyết định cuối
+
+## Phương án được đề xuất
+...
+
+## Lý do
+...
+
+## Điều kiện / giả định
+...
+
+## Rủi ro / trade-off
+...
+
+## Bước tiếp theo
+...
+
+## Điều kiện thay đổi quyết định
 ...
 ```
 
