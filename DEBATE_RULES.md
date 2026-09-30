@@ -53,10 +53,10 @@ Một hiệp gồm hai lượt:
 - Gemini — Hiệp N
 - ChatGPT — Hiệp N
 
-Mặc định bắt đầu với Gemini.
+Mặc định bắt đầu với ChatGPT.
 
-Sau khi Gemini gửi Hiệp 1, ChatGPT trả lời Hiệp 1.
-Sau đó người dùng chuyển câu trả lời sang Gemini để bắt đầu Hiệp 2.
+Sau khi ChatGPT gửi Hiệp 1, người dùng chuyển câu trả lời sang Gemini để bắt đầu Hiệp 2.
+Sau khi Gemini gửi Hiệp 2, người dùng chuyển câu trả lời sang ChatGPT để bắt đầu Hiệp 2.
 
 Tiếp tục cho đến khi người dùng kết thúc phiên.
 
@@ -78,7 +78,23 @@ Khi cần chuyển sang Gemini, ChatGPT xuất ra phần trả lời của mình
 
 ## 6. Ghi chép transcript
 
-ChatGPT chịu trách nhiệm duy trì transcript trong cuộc trò chuyện.
+Mỗi phiên tranh luận là một phiên độc lập.
+
+Không gộp nhiều chủ đề hoặc nhiều phiên tranh luận khác nhau vào cùng một transcript.
+
+Mỗi phiên phải có khu vực lưu trữ riêng, ví dụ:
+
+debates/<ten-phien>/
+- CONTEXT.md
+- TRANSCRIPT.md
+
+Tên phiên phải mô tả được chủ đề hoặc mục đang tranh luận.
+
+Mỗi phiên có Debate Context riêng và transcript riêng. Khi bắt đầu một phiên mới, không được mặc định mang Debate Context hoặc transcript của phiên cũ sang, trừ khi người dùng yêu cầu.
+
+
+
+ChatGPT chịu trách nhiệm duy trì transcript của phiên hiện tại trong cuộc trò chuyện và khi người dùng yêu cầu ghi vào repository, lưu transcript vào thư mục riêng của phiên đó.
 
 Transcript có cấu trúc:
 
