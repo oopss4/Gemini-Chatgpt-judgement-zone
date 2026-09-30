@@ -190,3 +190,64 @@ Sau mỗi 2 hiệp, ChatGPT có thể tạo một Context Snapshot ngắn:
 - Điểm chưa giải quyết:
 
 Context Snapshot được dùng làm context gọn để tiếp tục phiên tranh luận.
+
+
+## 10. Trạng thái phiên debate
+
+Mỗi phiên debate phải có trạng thái rõ ràng để Gemini và ChatGPT biết phiên nào đang diễn ra.
+
+Các trạng thái hợp lệ:
+
+- **SCHEDULED** — phiên đã được tạo nhưng chưa bắt đầu.
+- **ACTIVE** — phiên đang diễn ra.
+- **COMPLETED** — phiên đã kết thúc.
+- **CANCELLED** — phiên đã bị hủy.
+
+Mỗi phiên phải ghi rõ:
+
+- Status
+- Scheduled start (nếu có)
+- Actual start
+- Actual end (nếu đã kết thúc)
+- Chủ đề
+- Số hiệp đã hoàn thành
+
+Ví dụ:
+
+## Debate Status
+
+- Status: ACTIVE
+- Scheduled start: 2026-09-30 11:30 +07:00
+- Actual start: 2026-09-30 11:34 +07:00
+- Actual end: —
+- Rounds completed: 1
+
+### Quy tắc trạng thái
+
+1. Khi phiên bắt đầu, chuyển từ SCHEDULED sang ACTIVE và ghi Actual start.
+2. Khi người dùng tuyên bố kết thúc hoặc phiên được kết thúc theo luật, chuyển sang COMPLETED và ghi Actual end.
+3. Phiên COMPLETED không được tiếp tục nhận lượt mới.
+4. Phiên SCHEDULED không được coi là đang tranh luận.
+5. Chỉ một phiên được đánh dấu ACTIVE tại một thời điểm, trừ khi người dùng chủ động yêu cầu chạy nhiều phiên song song.
+6. Gemini và ChatGPT phải kiểm tra trạng thái của phiên trước khi tiếp tục một lượt.
+7. Nếu người dùng bắt đầu một chủ đề mới, tạo một phiên mới thay vì ghi tiếp vào phiên cũ.
+
+## 11. Danh mục phiên debate
+
+Repository nên có một file index ở:
+
+debates/INDEX.md
+
+File này theo dõi toàn bộ phiên:
+
+| Session | Topic | Status | Start | End |
+|---|---|---|---|---|
+| <session> | <topic> | SCHEDULED / ACTIVE / COMPLETED / CANCELLED | <time> | <time> |
+
+Gemini có thể dùng INDEX.md để xác định:
+- phiên nào đã hoàn thành;
+- phiên nào đang hoạt động;
+- phiên nào sắp diễn ra;
+- phiên nào không còn hiệu lực.
+
+INDEX.md không thay thế CONTEXT.md hoặc TRANSCRIPT.md của từng phiên.
