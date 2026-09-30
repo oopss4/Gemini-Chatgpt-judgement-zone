@@ -48,7 +48,7 @@ GitHub chỉ dùng để lưu luật và transcript. Không yêu cầu Gemini c�
 
 ## 4. Cấu trúc phiên
 
-Một phiên gồm hai giai đoạn:
+Một phiên gồm ba giai đoạn:
 
 ### Giai đoạn A — Debate Rounds
 
@@ -75,15 +75,26 @@ Mỗi bên phải nêu:
 
 Giai đoạn Rút kết không phải là một vòng phản biện mới. Hai bên không tiếp tục tranh luận trực tiếp với nhau trong giai đoạn này.
 
-Sau khi cả hai bên hoàn thành Rút kết, ChatGPT có thể tạo Debate Synthesis chung gồm:
+### Giai đoạn C — Decision / Quyết định cuối
 
-- Điểm đã đạt đồng thuận.
-- Điểm còn bất đồng.
-- Các claim cần kiểm chứng bằng nguồn bên ngoài.
-- Các trade-off chính.
-- Các câu hỏi còn thiếu dữ liệu.
+Sau khi cả hai bên hoàn thành Rút kết, chuyển từ phân tích sang ra quyết định.
 
-Không bắt buộc tuyên bố bên thắng.
+Hai bên phải dùng toàn bộ kết quả của debate và phần Rút kết để xác định phương án hành động phù hợp nhất với mục tiêu và điều kiện đã đặt ra.
+
+Giai đoạn này phải tạo ra một output quyết định duy nhất, gồm:
+
+1. Phương án được đề xuất.
+2. Lý do chọn phương án đó.
+3. Điều kiện và giả định khiến phương án đó phù hợp.
+4. Rủi ro và trade-off chính.
+5. Bước hành động tiếp theo.
+6. Điều kiện hoặc dữ kiện nào có thể khiến phải đổi phương án.
+
+Nếu dữ liệu chưa đủ để chọn một phương án, phải nói rõ chưa thể quyết định và xác định chính xác dữ kiện cần có trước khi quyết định.
+
+Không bắt buộc tuyên bố bên thắng. Mục tiêu của Giai đoạn C là xác định người dùng nên làm gì dựa trên toàn bộ debate, không phải xác định AI nào thắng.
+
+Sau khi Decision hoàn tất, phiên được chuyển sang COMPLETED.
 
 ## 5. Format truyền lượt
 
@@ -112,6 +123,12 @@ và:
 [CHATGPT — RÚT KẾT]
 
 <nội dung ChatGPT>
+
+Trong giai đoạn Decision, sử dụng:
+
+[FINAL DECISION]
+
+<nội dung quyết định cuối>
 
 ## 6. Ghi chép transcript
 
@@ -155,7 +172,24 @@ Transcript có cấu trúc:
 ## ChatGPT — Rút kết
 ...
 
-## Debate Synthesis
+# Final Decision / Quyết định cuối
+
+## Phương án được đề xuất
+...
+
+## Lý do
+...
+
+## Điều kiện / giả định
+...
+
+## Rủi ro / trade-off
+...
+
+## Bước tiếp theo
+...
+
+## Điều kiện thay đổi quyết định
 ...
 
 Không tự ý sửa nội dung đã được ghi nhận của một bên.
@@ -166,10 +200,11 @@ Khi người dùng nói kết thúc phần tranh luận, ChatGPT phải:
 
 1. Dừng việc tạo Debate Round mới.
 2. Chuyển sang Final Synthesis / Rút kết.
-3. Hoàn thiện transcript với phần Rút kết của hai bên.
-4. Có thể tạo Debate Synthesis chung.
-5. Giữ nguyên nội dung các lượt đã diễn ra.
-6. Chuyển phiên sang COMPLETED sau khi toàn bộ Rút kết hoàn tất.
+3. Hoàn thiện phần Rút kết của hai bên.
+4. Chuyển sang Decision / Quyết định cuối.
+5. Tạo một output quyết định duy nhất dựa trên toàn bộ debate và hai phần Rút kết.
+6. Giữ nguyên nội dung các lượt đã diễn ra.
+7. Chuyển phiên sang COMPLETED sau khi Decision hoàn tất.
 
 Mặc định không tuyên bố bên nào thắng.
 
