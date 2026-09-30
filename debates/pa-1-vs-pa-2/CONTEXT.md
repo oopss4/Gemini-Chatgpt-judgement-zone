@@ -2,10 +2,9 @@
 
 ## Debate Status
 
-- Status: COMPLETED
+- Status: ACTIVE — Phase 3 / Decision
 - Scheduled start: —
-- Actual start: 2026-09-30, approximately 11:00 +07:00 (exact start timestamp was not captured)
-- Actual end: 2026-09-30 11:57 +07:00
+- Debate rounds ended: 2026-09-30 11:57 +07:00
 - Rounds completed: 10
 
 ## Topic
@@ -42,7 +41,7 @@ Mục tiêu dài hạn của người học là sang Đức, học tập/lập n
 - HSRW Engineering B.Sc. hiện có cấu trúc 7 học kỳ; internship/semester abroad trải trên semester 6-7 và Bachelor Thesis ở semester 7.
 - Werkstudent không phải Blue Card.
 - Có qualified employment phù hợp và đáp ứng các điều kiện liên quan mới có thể dùng bằng cấp để chuyển sang route lao động/Blue Card.
-- Người có residence permit học tập có thể, trong một số trường hợp theo luật, chuyển sang residence permit lao động trước khi hoàn thành chương trình; PA 1 vì thế không bị pháp luật 'khóa' tuyệt đối cho đến lúc tốt nghiệp.
+- Người có residence permit học tập có thể, trong một số trường hợp theo luật, chuyển sang residence permit lao động trước khi hoàn thành chương trình; PA 1 vì thế không bị pháp luật "khóa" tuyệt đối cho đến lúc tốt nghiệp.
 - Chứng minh tài chính không chỉ giới hạn ở Sperrkonto.
 - Bachelor CTUT là lợi thế thực chất của PA 2 không chỉ với fallback mà còn có thể tạo thêm route nghề nghiệp nếu qualification và employment đáp ứng điều kiện.
 - Tuy nhiên, các lợi ích như mức thu nhập, khả năng kiếm Werkstudent, số ECTS được công nhận và tốc độ chuyển sang employment không được xem là chắc chắn.
@@ -55,4 +54,4 @@ Mục tiêu dài hạn của người học là sang Đức, học tập/lập n
 
 ## Kết trạng thái
 
-Phiên được đóng sau Gemini — Hiệp 10. Không tuyên bố bên thắng theo rules hiện hành.
+Debate Rounds đã đóng sau Gemini — Hiệp 10. Phase 3 / Decision đang chờ hai strategic proposal; chưa có FINAL DECISION.
