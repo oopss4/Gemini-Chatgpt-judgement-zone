@@ -130,6 +130,27 @@ Trong giai đoạn Decision, sử dụng:
 
 <nội dung quyết định cuối>
 
+## 5.5. Communication / Handoff
+
+ChatGPT và Gemini giao tiếp thông qua người dùng. Mỗi khi chuyển lượt, bên gửi phải cung cấp đủ thông tin để bên nhận hiểu phiên đang ở đâu và cần làm gì tiếp theo.
+
+Khi chuyển một lượt, ưu tiên cung cấp:
+
+- Session hiện tại.
+- Phase hiện tại: Debate, Rút kết hoặc Decision.
+- Số hiệp/lượt hiện tại nếu có.
+- Debate Context hiện tại hoặc phần context cần thiết.
+- Nội dung lượt vừa rồi của bên gửi.
+- Yêu cầu rõ ràng đối với bên nhận.
+
+Bên nhận phải tiếp tục từ đúng trạng thái được cung cấp, không tự tạo một session mới hoặc tự chuyển phase nếu chưa có căn cứ.
+
+Nếu thiếu thông tin quan trọng hoặc không xác định được trạng thái của phiên, bên nhận phải hỏi người dùng để làm rõ thay vì tự đoán.
+
+Không yêu cầu một format kỹ thuật cố định như JSON. Mục tiêu của handoff là để cả hai bên hiểu chính xác context, trạng thái và nhiệm vụ tiếp theo.
+
+Khi chuyển sang Rút kết hoặc Decision, phải ghi rõ phase mới để bên nhận không tiếp tục một Debate Round thông thường.
+
 ## 6. Ghi chép transcript
 
 Mỗi phiên tranh luận là một phiên độc lập.
