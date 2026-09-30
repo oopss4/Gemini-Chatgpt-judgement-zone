@@ -2,9 +2,9 @@
 
 ## Debate Status
 
-- Status: COMPLETED
+- Status: ACTIVE — Phase 3 / Decision
 - Actual start: 2026-09-30, approximately 11:00 +07:00
-- Actual end: 2026-09-30 11:57 +07:00
+- Debate rounds ended: 2026-09-30 11:57 +07:00
 - Rounds completed: 10
 
 ---
@@ -15,7 +15,7 @@ PA 1 có một lợi thế cấu trúc: nó đưa quyết định sang Đức v�
 
 Nếu mục tiêu cuối cùng đã tương đối rõ là sang Đức học Bachelor và xây dựng cuộc sống ở đó, việc hoàn thành toàn bộ Bachelor KTPM ở CTUT trước khi đi không tự động tạo ra giá trị tương ứng với hai năm thời gian bổ sung. PA 2 chỉ thực sự có lợi nếu hai năm đó giải quyết được các nút thắt lớn như tài chính, năng lực học tập, hồ sơ hoặc khả năng được công nhận tín chỉ.
 
-PA 1 cho phép dùng hai năm đầu CTUT như giai đoạn chuẩn bị và kiểm chứng: đánh giá tiếng Anh/Đức, GPA, chuyên môn, tài chính, hồ sơ và khả năng Anerkennung. Nếu kế hoạch Đức không khả thi thì vẫn còn khả năng tiếp tục CTUT.
+PA 1 cho phép dùng hai năm đầu CTUT như giai đoạn chuẩn bị và kiểm chứng: đánh giá tiếng Anh/Đức, GPA, chuyên môn, portfolio và tài chính. Nếu kế hoạch Đức không khả thi thì vẫn còn khả năng tiếp tục CTUT.
 
 Điểm yếu của PA 1 là tài chính: nếu sau hai năm vẫn không giải quyết được nguồn vốn cần thiết thì đi sớm không tạo ra khả năng đi thực tế.
 
@@ -205,7 +205,7 @@ Gemini khóa trận bằng cách định nghĩa PA 2 là "Option-Buying Strategy
 
 - Hai năm 3-4 tại CTUT tạo thêm Bachelor, portfolio/thesis, kinh nghiệm và option nghề nghiệp.
 - Bachelor CTUT có thể mở thêm route skilled employment/Blue Card khi đáp ứng đầy đủ điều kiện.
-- HSRW có thể là cầu nối để vào thị trường Đức, nhưng không nhất thiết là đích bắt buộc nếu qualified employment xuất hiện.
+- HSRW có thể là cầu nối để vào thị trường lao động Đức, nhưng không nhất thiết là đích bắt buộc nếu qualified employment xuất hiện.
 - PA 2 được mô tả như một chiến lược quản trị rủi ro với nhiều cửa hơn và fallback rõ ràng.
 
 Gemini kết luận theo quan điểm của phía mình rằng PA 2 đáng để trả thêm hai năm vì có thêm credential, fallback và option nghề nghiệp.
@@ -214,8 +214,34 @@ Gemini kết luận theo quan điểm của phía mình rằng PA 2 đáng để
 
 ## Debate Closure
 
-Phiên kết thúc sau 10 hiệp.
+Phiên kết thúc Debate Rounds sau 10 hiệp.
 
 Các bên đã thống nhất nhiều đính chính kỹ thuật, nhưng vẫn giữ bất đồng chính về giá trị biên của hai năm 3-4 tại CTUT so với lợi ích của việc sang Đức sớm hơn.
 
 Không có tuyên bố bên thắng. Đây là transcript của hai phía, không phải quyết định thay người dùng.
+
+---
+
+# Phase 3 — Decision / Quyết định cuối
+
+## Decision Handoff
+
+[DEBATE HANDOFF]
+[SESSION]: pa-1-vs-pa-2
+[PHASE]: Decision
+[ROUND]: —
+[DEBATE CONTEXT]: Debate 10 hiệp đã hoàn tất. PA2 có thêm Bachelor CTUT, fallback và option nghề nghiệp; PA1 có lợi thế đi Đức sớm hơn và giảm opportunity cost. Bất đồng còn lại là liệu giá trị biên của hai năm 3-4 có đủ bù chi phí cơ hội hay không.
+[LAST TURN]: Gemini kết luận PA2 là "Option-Buying Strategy"; ChatGPT đồng ý PA2 có thêm option nhưng chưa chứng minh hai năm bổ sung chắc chắn đáng giá hơn opportunity cost.
+[NEXT ACTION]: Gemini đưa ra đề xuất chiến lược riêng cho Phase 3 theo 6 mục. Đây chưa phải FINAL DECISION.
+
+## Gemini — Strategic Proposal
+
+[Chờ Gemini]
+
+## ChatGPT — Strategic Proposal
+
+[Chờ ChatGPT]
+
+# FINAL DECISION
+
+[Chưa quyết định]
