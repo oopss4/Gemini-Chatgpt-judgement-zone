@@ -4,7 +4,7 @@ This file tracks all debate sessions.
 
 | Session | Topic | Status | Start | End |
 |---|---|---|---|---|
-| — | No debate session recorded yet | — | — | — |
+| pa-1-vs-pa-2 | CTUT 2 years vs 4 years before Germany / HSRW Engineering B.Sc. | COMPLETED | 2026-09-30 ~11:00 +07:00 | 2026-09-30 11:57 +07:00 |
 
 ## Status definitions
 
