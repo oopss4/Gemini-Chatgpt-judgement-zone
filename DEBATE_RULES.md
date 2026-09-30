@@ -149,6 +149,52 @@ Nếu thiếu thông tin quan trọng hoặc không xác định được trạn
 
 Không yêu cầu một format kỹ thuật cố định như JSON. Mục tiêu của handoff là để cả hai bên hiểu chính xác context, trạng thái và nhiệm vụ tiếp theo.
 
+### Standardized Handoff Template
+
+Để giảm sai lệch khi truyền lượt, có thể dùng mẫu chuẩn sau:
+
+[DEBATE HANDOFF]
+[SESSION]: <session_id>
+[PHASE]: <Debate Rounds | Final Synthesis | Decision>
+[ROUND]: <Round_N hoặc —>
+[DEBATE CONTEXT]: <context hiện tại hoặc tóm tắt cần thiết>
+[LAST TURN]: <nội dung lượt vừa rồi>
+[NEXT ACTION]: <nhiệm vụ cụ thể cho bên nhận>
+
+Sáu trường trên là các trường bắt buộc của handoff. Nội dung từng trường có thể ngắn hoặc dài tùy mức độ phức tạp của phiên.
+
+### Phase Transition
+
+Chỉ Người dùng có quyền chuyển phiên từ Debate Rounds sang Final Synthesis hoặc từ Final Synthesis sang Decision.
+
+Gemini và ChatGPT có thể đề xuất rằng một phase đã đủ hoặc nên kết thúc, nhưng không được tự động chuyển phase. Phase chỉ thay đổi khi Người dùng ra lệnh rõ ràng hoặc cung cấp một handoff ghi rõ phase mới.
+
+### Phase 2 / Final Synthesis Output
+
+Mỗi bên thực hiện Rút kết độc lập. Nội dung tối thiểu nên bao gồm:
+
+1. Điểm đồng thuận.
+2. Điểm bất đồng còn lại.
+3. Kết luận riêng của bên mình.
+4. Các trade-off chính.
+
+Có thể trình bày dưới dạng bảng hoặc cấu trúc khác nếu phù hợp; không bắt buộc một ma trận cố định.
+
+### Phase 3 / Decision Output
+
+Sau Final Synthesis, mỗi bên đưa ra đề xuất chiến lược riêng của mình. Đề xuất của Gemini hoặc ChatGPT chưa phải là quyết định cuối cùng.
+
+Mỗi đề xuất nên nêu:
+
+1. Phương án được đề xuất.
+2. Lý do.
+3. Điều kiện / giả định.
+4. Rủi ro / trade-off.
+5. Bước hành động tiếp theo.
+6. Điều kiện hoặc dữ kiện có thể khiến đổi phương án.
+
+Sau khi hai đề xuất đã được hoàn tất, protocol tạo một `[FINAL DECISION]` duy nhất. `[FINAL DECISION]` là output cuối của session và không được mặc định là chiến thắng của Gemini hay ChatGPT. Nếu dữ liệu chưa đủ để đưa ra quyết định, phải ghi rõ dữ kiện cần xác minh trước khi quyết định.
+
 Khi chuyển sang Rút kết hoặc Decision, phải ghi rõ phase mới để bên nhận không tiếp tục một Debate Round thông thường.
 
 ## 6. Ghi chép transcript
