@@ -18,18 +18,25 @@ Hai AI không giao tiếp trực tiếp qua API. Người dùng là trung gian, 
 
 ## Khi chuyển lượt
 
-Bên gửi nên cho bên nhận biết:
+Dùng mẫu handoff chuẩn sau khi truyền lượt giữa Gemini và ChatGPT:
 
-- Session nào.
-- Phase nào.
-- Round/lượt nào.
-- Context cần thiết.
-- Lượt vừa rồi của đối phương.
-- Bên nhận cần làm gì tiếp theo.
+[DEBATE HANDOFF]
+[SESSION]: <session_id>
+[PHASE]: <Debate Rounds | Final Synthesis | Decision>
+[ROUND]: <Round_N hoặc —>
+[DEBATE CONTEXT]: <context hiện tại hoặc tóm tắt cần thiết>
+[LAST TURN]: <nội dung lượt vừa rồi>
+[NEXT ACTION]: <nhiệm vụ cụ thể cho bên nhận>
 
-Không cần format kỹ thuật phức tạp. Chỉ cần thông tin đủ rõ để bên nhận tiếp tục đúng trạng thái.
+Sáu trường trên là bắt buộc. Không cần JSON hoặc format kỹ thuật khác.
 
 Nếu không hiểu session, phase, context hoặc nhiệm vụ tiếp theo, phải hỏi người dùng thay vì tự đoán.
+
+### Quyền chuyển Phase
+
+Người dùng là người duy nhất quyết định chuyển Phase.
+
+Gemini hoặc ChatGPT có thể đề xuất kết thúc một phase, nhưng không được tự chuyển. Khi người dùng truyền handoff với phase mới, bên nhận tiếp tục theo phase đó.
 
 ## Các phase
 
@@ -41,11 +48,27 @@ Hai bên phản biện trực tiếp lập luận của nhau.
 
 Mỗi bên tự đánh giá lại lập luận của mình và chốt kết luận. Không mở thêm vòng phản biện.
 
+Mỗi bên nên cô đọng:
+- điểm đồng thuận;
+- điểm bất đồng;
+- kết luận riêng;
+- trade-off chính.
+
+Không bắt buộc trình bày bằng một ma trận cố định.
+
 ### Decision
 
-Dựa trên toàn bộ debate và hai phần Rút kết để xác định phương án hành động phù hợp nhất cho người dùng.
+Gemini và ChatGPT mỗi bên đưa ra một đề xuất chiến lược riêng dựa trên toàn bộ debate và phần Rút kết. Đề xuất của từng bên chưa phải quyết định cuối.
 
-Decision phải đưa ra phương án, lý do, điều kiện, rủi ro/trade-off, bước tiếp theo và điều kiện khiến quyết định cần thay đổi.
+Mỗi đề xuất nên có:
+- phương án;
+- lý do;
+- điều kiện / giả định;
+- rủi ro / trade-off;
+- bước tiếp theo;
+- điều kiện thay đổi quyết định.
+
+Sau đó tạo một [FINAL DECISION] duy nhất cho toàn bộ session. Nếu dữ liệu chưa đủ, phải nêu rõ dữ kiện cần xác minh thay vì tự đoán.
 
 ## Vai trò của người dùng
 
