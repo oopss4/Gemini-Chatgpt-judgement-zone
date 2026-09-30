@@ -46,19 +46,44 @@ GitHub chỉ dùng để lưu luật và transcript. Không yêu cầu Gemini c�
 9. Không cố thắng bằng cách kéo dài câu trả lời hoặc né câu hỏi.
 10. Mỗi bên phải tập trung vào điểm mạnh nhất của lập luận đối phương.
 
-## 4. Cấu trúc hiệp
+## 4. Cấu trúc phiên
 
-Một hiệp gồm hai lượt:
+Một phiên gồm hai giai đoạn:
+
+### Giai đoạn A — Debate Rounds
+
+Mỗi hiệp gồm hai lượt:
 
 - Gemini — Hiệp N
 - ChatGPT — Hiệp N
 
 Mặc định bắt đầu với ChatGPT.
 
-Sau khi ChatGPT gửi Hiệp 1, người dùng chuyển câu trả lời sang Gemini để bắt đầu Hiệp 2.
-Sau khi Gemini gửi Hiệp 2, người dùng chuyển câu trả lời sang ChatGPT để bắt đầu Hiệp 2.
+Tiếp tục cho đến số hiệp đã định hoặc khi người dùng kết thúc phần tranh luận.
 
-Tiếp tục cho đến khi người dùng kết thúc phiên.
+### Giai đoạn B — Final Synthesis / Rút kết
+
+Sau khi kết thúc các Debate Rounds, hai bên thực hiện một lượt rút kết độc lập.
+
+Mỗi bên phải nêu:
+
+1. Những luận điểm của phía mình vẫn đứng vững.
+2. Những luận điểm của phía mình đã bị bác bỏ hoặc phải điều chỉnh.
+3. Những luận điểm của đối phương mà mình thừa nhận có giá trị.
+4. Những vấn đề vẫn chưa được giải quyết.
+5. Kết luận cuối cùng của phía mình dựa trên toàn bộ debate.
+
+Giai đoạn Rút kết không phải là một vòng phản biện mới. Hai bên không tiếp tục tranh luận trực tiếp với nhau trong giai đoạn này.
+
+Sau khi cả hai bên hoàn thành Rút kết, ChatGPT có thể tạo Debate Synthesis chung gồm:
+
+- Điểm đã đạt đồng thuận.
+- Điểm còn bất đồng.
+- Các claim cần kiểm chứng bằng nguồn bên ngoài.
+- Các trade-off chính.
+- Các câu hỏi còn thiếu dữ liệu.
+
+Không bắt buộc tuyên bố bên thắng.
 
 ## 5. Format truyền lượt
 
@@ -73,6 +98,18 @@ ChatGPT phải hiểu đây là lượt chính thức của Gemini và tiếp t�
 Khi cần chuyển sang Gemini, ChatGPT xuất ra phần trả lời của mình với nhãn:
 
 [CHATGPT — HIỆP N]
+
+<nội dung ChatGPT>
+
+Trong giai đoạn Rút kết, sử dụng:
+
+[GEMINI — RÚT KẾT]
+
+<nội dung Gemini>
+
+và:
+
+[CHATGPT — RÚT KẾT]
 
 <nội dung ChatGPT>
 
@@ -92,8 +129,6 @@ Tên phiên phải mô tả được chủ đề hoặc mục đang tranh luận
 
 Mỗi phiên có Debate Context riêng và transcript riêng. Khi bắt đầu một phiên mới, không được mặc định mang Debate Context hoặc transcript của phiên cũ sang, trừ khi người dùng yêu cầu.
 
-
-
 ChatGPT chịu trách nhiệm duy trì transcript của phiên hiện tại trong cuộc trò chuyện và khi người dùng yêu cầu ghi vào repository, lưu transcript vào thư mục riêng của phiên đó.
 
 Transcript có cấu trúc:
@@ -112,16 +147,29 @@ Transcript có cấu trúc:
 ## ChatGPT — Hiệp 2
 ...
 
+# Final Synthesis / Rút kết
+
+## Gemini — Rút kết
+...
+
+## ChatGPT — Rút kết
+...
+
+## Debate Synthesis
+...
+
 Không tự ý sửa nội dung đã được ghi nhận của một bên.
 
 ## 7. Kết thúc phiên
 
-Khi người dùng nói kết thúc tranh luận, ChatGPT phải:
+Khi người dùng nói kết thúc phần tranh luận, ChatGPT phải:
 
-1. Dừng việc tạo lượt tranh luận mới.
-2. Hoàn thiện transcript.
-3. Giữ nguyên nội dung các lượt đã diễn ra.
-4. Có thể bổ sung phần tổng kết riêng nếu người dùng yêu cầu.
+1. Dừng việc tạo Debate Round mới.
+2. Chuyển sang Final Synthesis / Rút kết.
+3. Hoàn thiện transcript với phần Rút kết của hai bên.
+4. Có thể tạo Debate Synthesis chung.
+5. Giữ nguyên nội dung các lượt đã diễn ra.
+6. Chuyển phiên sang COMPLETED sau khi toàn bộ Rút kết hoàn tất.
 
 Mặc định không tuyên bố bên nào thắng.
 
@@ -190,7 +238,6 @@ Sau mỗi 2 hiệp, ChatGPT có thể tạo một Context Snapshot ngắn:
 - Điểm chưa giải quyết:
 
 Context Snapshot được dùng làm context gọn để tiếp tục phiên tranh luận.
-
 
 ## 10. Trạng thái phiên debate
 
