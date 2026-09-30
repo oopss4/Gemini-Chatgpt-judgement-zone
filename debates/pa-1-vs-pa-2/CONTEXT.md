@@ -2,7 +2,7 @@
 
 ## Debate Status
 
-- Status: ACTIVE — Phase 3 / Decision
+- Status: COMPLETED
 - Scheduled start: —
 - Debate rounds ended: 2026-09-30 11:57 +07:00
 - Rounds completed: 10
@@ -54,4 +54,8 @@ Mục tiêu dài hạn của người học là sang Đức, học tập/lập n
 
 ## Kết trạng thái
 
-Debate Rounds đã đóng sau Gemini — Hiệp 10. Phase 3 / Decision đang chờ hai strategic proposal; chưa có FINAL DECISION.
+Debate Rounds đã hoàn tất sau 10 hiệp. Phase 3 đã hoàn tất với Strategic Proposal của Gemini và ChatGPT, sau đó chốt FINAL DECISION.
+
+Quyết định: **PA2 là baseline, nhưng chỉ cam kết tiếp tục CTUT đến hết năm 2. Cuối năm 2 là Decision Gate để kích hoạt PA1 hoặc tiếp tục PA2.**
+
+Các bài toán thực thi cụ thể như tài chính, IELTS, GPA, portfolio/thu nhập và hồ sơ Đức được tách thành kế hoạch thực hiện riêng, không thuộc FINAL DECISION của debate này.
