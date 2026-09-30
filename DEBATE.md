@@ -14,12 +14,15 @@ No API automation.
 ## Debate protocol
 
 1. Create or choose a debate topic.
-2. Ask Gemini for its opening argument.
-3. Paste Gemini's response into the ChatGPT conversation.
-4. ChatGPT responds with a direct rebuttal.
-5. Paste ChatGPT's response back into Gemini.
-6. Continue for the agreed number of rounds.
-7. Save the final transcript under `debates/`.
+2. Define the Debate Context and agreed number of rounds.
+3. Run the Debate Rounds.
+4. Ask Gemini and ChatGPT to respond directly to each other's arguments.
+5. After the final Debate Round, stop direct rebuttal.
+6. Run Final Synthesis / Rút kết:
+   - Gemini gives its independent final synthesis.
+   - ChatGPT gives its independent final synthesis.
+7. ChatGPT records a neutral Debate Synthesis when useful.
+8. Save the final transcript under `debates/`.
 
 ## Transcript format
 
@@ -44,7 +47,15 @@ No API automation.
 ## ChatGPT — Round 2
 ...
 
-## Conclusion
+# Final Synthesis / Rút kết
+
+## Gemini — Rút kết
+...
+
+## ChatGPT — Rút kết
+...
+
+## Debate Synthesis
 ...
 ```
 
