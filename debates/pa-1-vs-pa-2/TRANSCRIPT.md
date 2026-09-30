@@ -2,7 +2,7 @@
 
 ## Debate Status
 
-- Status: ACTIVE — Phase 3 / Decision
+- Status: COMPLETED
 - Actual start: 2026-09-30, approximately 11:00 +07:00
 - Debate rounds ended: 2026-09-30 11:57 +07:00
 - Rounds completed: 10
@@ -236,12 +236,116 @@ Không có tuyên bố bên thắng. Đây là transcript của hai phía, khôn
 
 ## Gemini — Strategic Proposal
 
-[Chờ Gemini]
+### 1. Phương án
+Khuyên dùng PA2: hoàn thành Bachelor KTPM tại CTUT rồi mới sang Đức, đồng thời xem Bachelor CTUT như tài sản mở thêm route nghề nghiệp nếu sau này có qualified employment phù hợp.
+
+### 2. Lý do
+Gemini lập luận rằng PA2 mua thêm option: Bachelor hoàn chỉnh, portfolio/thesis, kinh nghiệm, fallback và khả năng mở route nghề nghiệp tại Đức. Hai năm bổ sung cũng có thể tạo thêm thời gian chuẩn bị tài chính và hồ sơ.
+
+### 3. Điều kiện / giả định
+Duy trì GPA tốt, xây portfolio/internship, đạt IELTS hoặc tiếng Đức phù hợp, chuẩn bị tài chính ban đầu và bảo đảm bằng CTUT tiếp tục đáp ứng yêu cầu công nhận tương ứng tại thời điểm apply.
+
+### 4. Rủi ro / Trade-off
+Chi phí cơ hội hai năm; phụ thuộc vào thị trường lao động; nguy cơ quá tải khi vừa hoàn thành CTUT vừa chuẩn bị Đức. Các lợi ích như Werkstudent, Blue Card hoặc chuyển employment đều phụ thuộc điều kiện thực tế.
+
+### 5. Bước hành động
+Năm 1-2 xây nền tảng, ngôn ngữ và portfolio; năm 3 internship và chuẩn bị hồ sơ; năm 4 hoàn thành Bachelor và chuẩn bị hồ sơ Đức; sau khi sang Đức có thể tìm Werkstudent/qualified employment và xin Anerkennung nếu phù hợp.
+
+### 6. Điều kiện / dữ kiện khiến đổi phương án
+Gemini đề xuất chuyển sang PA1 nếu tài chính đủ mạnh, tiếng Đức đạt mức cao, hoặc có bảo lãnh/học bổng toàn phần khiến chi phí cơ hội của việc chờ thêm hai năm trở nên kém hợp lý.
 
 ## ChatGPT — Strategic Proposal
 
-[Chờ ChatGPT]
+### 1. Phương án
+Chọn PA2 làm baseline, nhưng không cam kết cứng 4 năm. Tiếp tục KTPM tại CTUT ít nhất đến hết năm 2 và dùng cuối năm 2 làm Decision Gate để quyết định PA1 hoặc tiếp tục PA2.
+
+### 2. Lý do
+Nút thắt hiện tại là khả năng thực hiện kế hoạch Đức, đặc biệt tài chính và hồ sơ. Hai năm đầu có thể đồng thời tạo GPA, portfolio, ngôn ngữ, kinh nghiệm và tài chính cho cả hai phương án. PA2 có option value lớn hơn, nhưng chưa chứng minh rằng giá trị đó chắc chắn vượt chi phí cơ hội hai năm.
+
+### 3. Điều kiện / giả định
+Người học tiếp tục có thể học KTPM tại CTUT; có khả năng xây portfolio; có thể chuẩn bị ngôn ngữ và hồ sơ song song; quy định admission, visa và cư trú sẽ được kiểm tra lại tại thời điểm apply.
+
+### 4. Rủi ro / Trade-off
+Trade-off lớn nhất của PA2 là mất hai năm nếu sau này PA1 đã khả thi. Đồng thời không được nhầm option value với bảo đảm: Bachelor CTUT không bảo đảm việc làm, công nhận tín chỉ, miễn chương trình HSRW hoặc route cư trú nhanh hơn.
+
+### 5. Bước hành động
+Năm 1-2 tập trung KTPM, GPA, IELTS/tiếng Đức, portfolio và theo dõi tài chính. Cuối năm 2 thực hiện Germany Readiness Review gồm tài chính, admission, ngôn ngữ, GPA, portfolio, thu nhập, hồ sơ visa và giá trị dự kiến của hai năm 3-4. Đạt ngưỡng thì kích hoạt PA1; chưa đạt thì tiếp tục PA2.
+
+### 6. Điều kiện / dữ kiện khiến đổi phương án
+Chuyển sang PA1 nếu cuối năm 2 các điều kiện thiết yếu về tài chính, admission, ngôn ngữ, hồ sơ và năng lực đã đủ, đồng thời lợi ích của việc đi sớm lớn hơn giá trị kỳ vọng của hai năm tiếp theo tại CTUT. Ngược lại, tiếp tục PA2.
 
 # FINAL DECISION
 
-[Chưa quyết định]
+## Quyết định
+
+**Chọn chiến lược PA2 làm baseline, nhưng không cam kết cứng 4 năm.**
+
+Người học tiếp tục KTPM tại CTUT ít nhất đến hết năm 2 và sử dụng hai năm đầu như một **Decision Gate** để kiểm chứng khả năng thực hiện kế hoạch Đức.
+
+Tại cuối năm 2, người học sẽ quyết định giữa:
+
+- **PA1:** sang Đức sau năm 2 nếu các điều kiện cần thiết đã đạt.
+- **PA2:** tiếp tục CTUT đến khi hoàn thành Bachelor nếu các điều kiện để sang Đức chưa đủ hoặc hai năm tiếp theo vẫn có giá trị lớn hơn chi phí cơ hội của việc trì hoãn.
+
+Như vậy, quyết định hiện tại không phải là “PA2 chắc chắn thắng PA1”, mà là:
+
+> **Chưa trả giá 2 năm cơ hội để đi Đức khi các biến số quan trọng nhất vẫn chưa được kiểm chứng. Giữ PA2 làm đường cơ sở và giữ PA1 như một option được kích hoạt bằng dữ liệu thực tế.**
+
+## Lý do quyết định
+
+1. **Tài chính hiện là biến số có tính quyết định cao.**
+Nếu sau hai năm chưa đủ khả năng tài chính để thực hiện kế hoạch Đức, việc chọn PA1 chỉ vì muốn đi sớm không giải quyết được vấn đề cốt lõi.
+
+2. **Hai năm đầu CTUT có thể đồng thời tạo ra option cho cả hai hướng.**
+Có thể tích lũy GPA, portfolio, internship, tiếng Anh/Đức, kinh nghiệm và tài chính. Những tài sản này có ích cho cả PA1 lẫn PA2.
+
+3. **PA2 có option value cao hơn, nhưng giá trị đó không được mặc định là lớn hơn hai năm thời gian.**
+Bachelor CTUT, kinh nghiệm và portfolio có thể mở thêm lựa chọn, nhưng không bảo đảm việc làm tại Đức, công nhận tín chỉ, miễn chương trình HSRW hay con đường cư trú nhanh hơn.
+
+4. **PA1 có lợi thế thời gian và phải được giữ mở.**
+Nếu cuối năm 2 điều kiện thực tế đã đủ tốt, tiếp tục học thêm hai năm tại Việt Nam có thể trở thành chi phí cơ hội không cần thiết.
+
+5. **Không sử dụng giả định Blue Card/PR làm lý do chính để chọn PA2.**
+Khả năng chuyển sang diện lao động hoặc đạt quyền cư trú lâu dài phải được đánh giá theo luật và điều kiện thực tế tại thời điểm đó, không được coi là lợi ích tự động của việc có Bachelor CTUT.
+
+## Decision Gate — Cuối năm 2
+
+Cuối năm 2 phải đánh giá tối thiểu:
+- Tài chính thực có và khả năng đáp ứng yêu cầu chứng minh tài chính.
+- Điều kiện admission của chương trình Đức mục tiêu.
+- IELTS/tiếng Đức.
+- GPA và năng lực học thuật.
+- Portfolio và kinh nghiệm thực tế.
+- Khả năng tạo thu nhập.
+- Hồ sơ và các yêu cầu visa hiện hành.
+- Giá trị dự kiến của hai năm 3-4 nếu tiếp tục CTUT.
+
+**Kích hoạt PA1** nếu các điều kiện thiết yếu để sang Đức đã đủ và lợi ích của việc đi sớm vượt chi phí cơ hội của việc học thêm hai năm tại CTUT.
+
+**Tiếp tục PA2** nếu một hoặc nhiều điều kiện thiết yếu chưa đạt, đặc biệt là tài chính/hồ sơ, hoặc hai năm 3-4 vẫn có khả năng tạo ra giá trị đáng kể về bằng cấp, kinh nghiệm, portfolio và khả năng tài chính.
+
+## Trade-off được chấp nhận
+
+Quyết định này chấp nhận khả năng PA2 cuối cùng có thể khiến người học mất thêm hai năm so với PA1.
+
+Đổi lại, người học có thêm thời gian để biến một kế hoạch Đức còn nhiều biến số thành một kế hoạch có dữ liệu thực tế hơn.
+
+## Nguyên tắc thực thi
+
+**Không xem hai năm đầu là thời gian chờ.**
+
+Hai năm đầu là giai đoạn xây dựng và kiểm chứng:
+
+> **CTUT → năng lực → portfolio → tiếng Anh/Đức → tài chính → hồ sơ Đức → Decision Gate.**
+
+## Kết luận cuối
+
+**Baseline hiện tại: PA2.**
+
+**Cam kết hiện tại: chỉ cam kết tiếp tục CTUT đến hết năm 2.**
+
+**Điểm quyết định lớn: cuối năm 2.**
+
+**PA1 không bị loại. PA2 không được mặc định kéo dài đủ 4 năm.**
+
+Đây là chiến lược **“2 năm để mua thông tin và option, sau đó quyết định bằng dữ liệu”**, thay vì đặt cược ngay từ năm đầu vào một trong hai timeline.
